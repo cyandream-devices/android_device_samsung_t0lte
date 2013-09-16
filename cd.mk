@@ -1,5 +1,5 @@
 # Specify phone tech before including full_phone
-$(call inherit-product, vendor/cm/config/gsm.mk)
+$(call inherit-product, vendor/cyandreamm/config/gsm.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := t0lte
@@ -8,8 +8,8 @@ PRODUCT_RELEASE_NAME := t0lte
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common CD stuff.
+$(call inherit-product, vendor/cyandream/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/t0lte/full_t0lte.mk)

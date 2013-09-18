@@ -1,5 +1,5 @@
 # Specify phone tech before including full_phone
-$(call inherit-product, vendor/cyandreamm/config/gsm.mk)
+$(call inherit-product, vendor/cyandream/config/gsm.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := t0lte
